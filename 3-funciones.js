@@ -42,12 +42,13 @@ function multiplicar(a, b) {
     
 
 // 2.2 Escribe una función llamada `saludarPersonalizado` que reciba dos parámetros: `nombre` y `apellido`. La función debe devolver "Hola, [nombre] [apellido]".
-function multiplicar(a, b) {
-    return a * b;
-  }
-  
-  // Imprimir
-  console.log(multiplicar(3, 4));  Imprime: 12
+function saludarPersonalizado(nombre, apellido) {
+  return `Hola, ${nombre} ${apellido}`;
+}
+
+// Imprimir
+console.log(saludarPersonalizado("Jhonatan", "Benitez")); // Imprime: "Hola, Jhonatan Benitez"
+
   
 
 // 2.3 Crea una función llamada `calcularPotencia` que reciba dos parámetros: base y exponente. La función debe devolver el resultado de elevar la base al exponente.
